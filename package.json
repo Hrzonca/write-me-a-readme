@@ -18,6 +18,6 @@
   },
   "homepage": "https://github.com/Hrzonca/write-me-a-readme#readme",
   "dependencies": {
-    "inquirer": "^9.1.3"
+    "inquirer": "^8.2.4"
   }
 }
