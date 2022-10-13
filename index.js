@@ -1,6 +1,7 @@
 // TODO: Include packages needed for this application
 const fs = require('fs');
 const inquirer = require('inquirer');
+const generateMarkdown = require('./utils/generateMarkdown.js')
 
 // TODO: Create an array of questions for user input
 inquirer
@@ -48,7 +49,7 @@ inquirer
         {
             type: 'list',
             message: 'What license did you use?',
-            choices: ['MIT', 'GPL', 'CC--0'],
+            choices: ['MIT', 'GPL', 'apache', 'ISC', 'unlicensed', 'other'],
             name: 'license'
         }
 
@@ -56,6 +57,8 @@ inquirer
     .then((answer) => {
         console.log(answer);
         const readMePage = formatReadMe(answer);
+        const mark = generateMarkdown(answer);
+        console.log(mark);
         fs.writeFile('README.md', readMePage, (err) => err ? console.log(err) : console.log('Successfully created README')
         );
     });
@@ -64,9 +67,6 @@ const formatReadMe = ({ projectName, description, installation, usage, contribut
     return `
 # ${projectName}
 
-## Decription
-${description}
-
 ## Table of Content
 - [project decription](#description)
 - [project instaltion](#installation)
@@ -74,6 +74,9 @@ ${description}
 - [project contribution](#contribution)
 - [project testing](#testing)
 - [project github](#github)
+
+## Decription
+${description}
 
 ## Installation
 ${installation}

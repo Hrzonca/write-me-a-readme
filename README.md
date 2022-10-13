@@ -1,8 +1,5 @@
 
-# g
-
-## Decription
-g
+# write me a areadme
 
 ## Table of Content
 - [project decription](#description)
@@ -12,22 +9,25 @@ g
 - [project testing](#testing)
 - [project github](#github)
 
+## Decription
+fsad
+
 ## Installation
-g
+sd
 
 ## Usage
-g
+fsd
 
 ## Constibution
-g
+sfedf
 
 ## Testing
-g
+fdsd
 
 ## Questions
-g
-g
+fds
+fs
 
 ## License
-<span class='badge badge-danger'>GPL</span>
+<span class='badge badge-danger'>ISC</span>
 
