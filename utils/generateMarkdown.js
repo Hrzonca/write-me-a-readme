@@ -1,5 +1,4 @@
-
-// TODO: Create a function that returns a license badge based on which license is passed in
+// Function that returns a license badge based on which license is passed in
 function renderLicenseBadge(data) {
     let licenseType = data.license;
     let userLicense = '';
@@ -19,13 +18,13 @@ function renderLicenseBadge(data) {
     return userLicense;
 }
 
-// TODO: Create a function that returns the license section of README
-// If there is no license, return an empty string
+// Function that returns the license section of README
 function renderLicenseSection(data) {
     return renderLicenseBadge(data);
 
 }
 
+//function to format the readme
 const formatReadMe = ({ projectName, description, installation, usage, contribution, testing, gitHub, email }) => {
 
     return `
@@ -59,9 +58,11 @@ ${gitHub}
 ${email}
 `
 }
-// TODO: Create a function to generate markdown for README
+// Function to generate markdown for README. 
 function generateMarkdown(data) {
+    //including the formatReadMe content in the markdown
     var format = formatReadMe(data);
+    //return this on the readme
     return `
     ${renderLicenseSection(data)}
 
