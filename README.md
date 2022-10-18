@@ -9,7 +9,7 @@
 - [Testing](#testing)
 - [Usagae](#usage)
 - [Contributing](#contribution)
-- [Question](#question)
+- [Questions](#question)
 - [License](#license)
 
 ## Decription
