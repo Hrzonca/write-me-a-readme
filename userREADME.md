@@ -7,7 +7,7 @@
 - [Decription](#description)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Contributing](#contributing)
+- [Contributing](#contribution)
 - [Testing](#testing)
 - [Questions](#questions)
 
