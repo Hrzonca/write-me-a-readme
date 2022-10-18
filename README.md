@@ -28,12 +28,15 @@ To test the project enter this comand in the folder containing the index.js file
 
 ## Constibuting
 [Haleigh Rzonca](https://github.com/Hrzonca)
+
 Trioligy tutors
+
 My instuctors: Samantha Randolph and Chandra Holt
 
 ## Questions
-GitHub: (https://github.com/Hrzonca/write-me-a-readme)
-Email: (hgielah@gmail.com)
+[GitHub:](https://github.com/Hrzonca/write-me-a-readme)
+
+[Email:](hgielah@gmail.com)
 
 
     ## License
