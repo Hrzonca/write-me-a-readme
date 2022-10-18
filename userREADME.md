@@ -5,13 +5,13 @@
 
 ## Table of Content
 - [Decription](#description)
-- [Instaltion](#installation)
+- [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
 - [Testing](#testing)
-- [Question](#question)
+- [Questions](#questions)
 
-## Decription
+## Description
 this appplication takes the weather api data and allows the user to view a city's weather data
 
 ## Installation
@@ -20,7 +20,7 @@ na
 ## Usage
 ability to view your weather in the city that you enter
 
-## Constibuting
+## Constributing
 Haleigh
 
 ## Testing

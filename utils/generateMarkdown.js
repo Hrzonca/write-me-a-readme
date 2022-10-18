@@ -36,6 +36,7 @@ const formatReadMe = ({ projectName, description, installation, usage, contribut
 - [Contribution](#contribution)
 - [Testing](#testing)
 - [Question](#question)
+- [License](#license)
 
 ## Decription
 ${description}
