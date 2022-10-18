@@ -4,12 +4,11 @@
 # Write me a README
 
 ## Table of Content
-- [Decription](#description)
+- [Decription](#Decription)
 - [Instaltion](#installation)
 - [Testing](#testing)
-- [Usagae](#usage)
-- [Contributing](#contribution)
-- [Questions](#question)
+- [Contributing](#Constibuting)
+- [Questions](#Questions)
 - [License](#license)
 
 ## Decription
