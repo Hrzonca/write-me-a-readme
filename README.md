@@ -14,7 +14,7 @@
 ## Decription
 This project was created to help developers write a professional readme all within their terminal. This project should help increase the speed of writing the readme with easy prompts that take the developers input and formats it into a professional readme.
 
-Video tutorial:
+[video walkthrough](https://drive.google.com/file/d/1D7CvmPjUHYIfJ08ceA2wJfms53tOkL2W/preview)
 
 
 ## Installation
