@@ -17,19 +17,24 @@ This project was created to help developers write a professional readme all with
 ## Installation
 run the following commands in your terminal in your desired location:
 
-(`npm init`)
-(`npm install inquirer`)
+`npm init`
 
-## Constibuting
-[Haleigh Rzonca](https://github.com/Hrzonca)
+`npm install inquirer`
 
 ## Testing
 To test the project enter this comand in the folder containing the index.js file: 
 
-(`node index.js`)
+`node index.js`
+
+## Constibuting
+[Haleigh Rzonca](https://github.com/Hrzonca)
+Trioligy tutors
+My instuctors: Samantha Randolph and Chandra Holt
 
 ## Questions
-GitHub
+GitHub: (https://github.com/Hrzonca/write-me-a-readme)
+Email: (hgielah@gmail.com)
+
 
     ## License
     [![License: MIT](https://img.shields.io/badge/License-MIT-blueviolet.svg)](https://opensource.org/licenses/MIT)
