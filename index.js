@@ -13,7 +13,7 @@ inquirer
         },
         {
             type: 'input',
-            message: 'Write a description of your project.',
+            message: 'Write a description of your project. Include: motivation of this project, why did you build it, what problem does it solve and what you learned.',
             name: 'description'
         },
         {

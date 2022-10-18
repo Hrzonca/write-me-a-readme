@@ -26,7 +26,6 @@ function renderLicenseSection(data) {
 
 //function to format the readme
 const formatReadMe = ({ projectName, description, installation, usage, contribution, testing, gitHub, email }) => {
-
     return `
 # ${projectName}
 
@@ -47,15 +46,17 @@ ${installation}
 ## Usage
 ${usage}
 
-## Constibution
+## Constibuting
 ${contribution}
 
 ## Testing
 ${testing}
 
 ## Questions
-${gitHub}
-${email}
+Feel free to checkout my other work along with this project at my GitHub.
+If you have any questions, do not hesitate to reach out to me by email. 
+GibHub: ${gitHub}
+Email: ${email}
 `
 }
 // Function to generate markdown for README. 
@@ -63,14 +64,11 @@ function generateMarkdown(data) {
     //including the formatReadMe content in the markdown
     var format = formatReadMe(data);
     //return this on the readme
-    return `
-    ${renderLicenseSection(data)}
-
-    ${format}
-    ## License
-    ${renderLicenseSection(data)}
+return `
+${renderLicenseSection(data)}
+${format}
+## License
+${renderLicenseSection(data)}
 `
 }
-
-
 module.exports = generateMarkdown;
