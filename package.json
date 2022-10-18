@@ -18,6 +18,8 @@
   },
   "homepage": "https://github.com/Hrzonca/write-me-a-readme#readme",
   "dependencies": {
-    "inquirer": "^8.2.4"
+    "colors": "^1.4.0",
+    "inquirer": "^8.2.4",
+    "logger": "^0.0.1"
   }
 }

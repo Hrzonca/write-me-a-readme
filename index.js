@@ -28,7 +28,7 @@ inquirer
         },
         {
             type: 'input',
-            message: 'How can people contribute to this application?',
+            message: 'Who contributed to this application?',
             name: 'contribution'
         },
         {
@@ -57,13 +57,10 @@ inquirer
     .then((answer) => {
         const mark = generateMarkdown(answer);
         console.log(mark);
-    
-        fs.writeFile('README.md', mark, (err) => err ? console.log(err) : console.log('Successfully created README'))
+        fs.writeFile('userREADME.md', mark, (err) => err ? console.log(err) : console.log('Successfully created README'))
 
     })
 
-// WHEN I choose a license for my application from a list of options
-// THEN a badge for that license is added near the top of the README and a notice is added to the section of the README entitled License that explains which license the application is covered under
 
 
 
