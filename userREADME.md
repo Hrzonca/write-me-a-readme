@@ -1,36 +1,37 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blueviolet.svg)](https://opensource.org/licenses/MIT)
 
-# cloudy with a chance of weather api
+# g
 
 ## Table of Content
 - [Decription](#description)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contribution)
+- [Instaltion](#installation)
+- [Usagae](#usage)
+- [Contribution](#contributing)
 - [Testing](#testing)
-- [Questions](#questions)
+- [Question](#question)
+- [License](#license)
 
-## Description
-this appplication takes the weather api data and allows the user to view a city's weather data
+## Decription
+g
 
 ## Installation
-na
+g
 
 ## Usage
-ability to view your weather in the city that you enter
+g
 
-## Constributing
-Haleigh
+## Constibuting
+g
 
 ## Testing
-go to the site and enter a city
+g
 
 ## Questions
 Feel free to checkout my other work along with this project at my GitHub.
 If you have any questions, do not hesitate to reach out to me by email. 
-GibHub: https://github.com/Hrzonca/write-me-a-readme/blob/main/userREADME.md#questions
-Email: test@email.com
+GibHub: g
+Email: g
 
 ## License
 [![License: MIT](https://img.shields.io/badge/License-MIT-blueviolet.svg)](https://opensource.org/licenses/MIT)
