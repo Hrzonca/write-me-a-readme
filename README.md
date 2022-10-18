@@ -1,5 +1,5 @@
 
-# write me a areadme
+# g
 
 ## Table of Content
 - [project decription](#description)
@@ -10,24 +10,20 @@
 - [project github](#github)
 
 ## Decription
-fsad
+g
 
 ## Installation
-sd
+g
 
 ## Usage
-fsd
+g
 
 ## Constibution
-sfedf
+g
 
 ## Testing
-fdsd
+g
 
 ## Questions
-fds
-fs
-
-## License
-<span class='badge badge-danger'>ISC</span>
+g
 
