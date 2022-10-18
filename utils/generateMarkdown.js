@@ -30,7 +30,7 @@ const formatReadMe = ({ projectName, description, installation, usage, contribut
 # ${projectName}
 
 ## Table of Content
-- [Decription](#description)
+- [Decription](#Decription)
 - [Instaltion](#installation)
 - [Usage](#usage)
 - [Contributing](#Constibuting)
