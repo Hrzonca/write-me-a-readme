@@ -1,5 +1,3 @@
-//ask about renderlicensesection and geratemarkdown in class
-
 // TODO: Include packages needed for this application
 const fs = require('fs');
 const inquirer = require('inquirer');

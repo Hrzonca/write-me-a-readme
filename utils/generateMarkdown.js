@@ -1,9 +1,4 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
-
-// const { default: inquirer } = require("inquirer");
-
-// console.log(answer);
-// If there is no license, return an empty string
 function renderLicenseBadge(data) {
     let licenseType = data.license;
     let userLicense = '';
@@ -36,12 +31,12 @@ const formatReadMe = ({ projectName, description, installation, usage, contribut
 # ${projectName}
 
 ## Table of Content
-- [project decription](#description)
-- [project instaltion](#installation)
-- [project usagae](#usage)
-- [project contribution](#contribution)
-- [project testing](#testing)
-- [project github](#github)
+- [Decription](#description)
+- [Instaltion](#installation)
+- [Usagae](#usage)
+- [Contribution](#contribution)
+- [Testing](#testing)
+- [Question](#question)
 
 ## Decription
 ${description}
@@ -63,15 +58,15 @@ ${gitHub}
 ${email}
 `
 }
-    // TODO: Create a function to generate markdown for README
-    function generateMarkdown(data) {
-        var format = formatReadMe(data);
-        return `
+// TODO: Create a function to generate markdown for README
+function generateMarkdown(data) {
+    var format = formatReadMe(data);
+    return `
 ${format}
   ## License
   ${renderLicenseSection(data)}
 `
-    }
+}
 
 
-    module.exports = generateMarkdown;
+module.exports = generateMarkdown;
