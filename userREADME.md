@@ -6,10 +6,10 @@
 ## Table of Content
 - [Decription](#description)
 - [Instaltion](#installation)
-- [Usagae](#usage)
-- [Contribution](#contribution)
+- [Usage](#usage)
+- [Contributing](#contributing)
 - [Testing](#testing)
-- [Question](#questions)
+- [Question](#question)
 
 ## Decription
 this appplication takes the weather api data and allows the user to view a city's weather data
@@ -18,10 +18,10 @@ this appplication takes the weather api data and allows the user to view a city'
 na
 
 ## Usage
-ablity to view your weather in the city that you enter
+ability to view your weather in the city that you enter
 
 ## Constibuting
-haleigh 
+Haleigh
 
 ## Testing
 go to the site and enter a city
@@ -29,7 +29,7 @@ go to the site and enter a city
 ## Questions
 Feel free to checkout my other work along with this project at my GitHub.
 If you have any questions, do not hesitate to reach out to me by email. 
-GibHub: https://github.com/Hrzonca/write-me-a-readme/blob/main/userREADME.md
+GibHub: https://github.com/Hrzonca/write-me-a-readme/blob/main/userREADME.md#questions
 Email: test@email.com
 
 ## License
