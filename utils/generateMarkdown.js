@@ -32,10 +32,10 @@ const formatReadMe = ({ projectName, description, installation, usage, contribut
 ## Table of Content
 - [Decription](#description)
 - [Instaltion](#installation)
-- [Usagae](#usage)
-- [Contribution](#contributing)
+- [Usage](#usage)
+- [Contributing](#contributing)
 - [Testing](#testing)
-- [Question](#question)
+- [Questions](#questions)
 - [License](#license)
 
 ## Decription
