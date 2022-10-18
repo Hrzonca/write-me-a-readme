@@ -4,8 +4,8 @@
 # Write me a README
 
 ## Table of Content
-- [Decription](#Decription)
-- [Instaltion](#installation)
+- [Description](#Decription)
+- [Installtion](#installation)
 - [Testing](#testing)
 - [Contributing](#Constibuting)
 - [Questions](#Questions)

@@ -1,7 +1,7 @@
 
-[![License: Unlicense](https://img.shields.io/badge/license-Unlicense-lightgrey.svg)](http://unlicense.org/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blueviolet.svg)](https://opensource.org/licenses/MIT)
 
-# f
+# Cloudy with a chance of weather api
 
 ## Table of Content
 - [Decription](#Decription)
@@ -13,25 +13,25 @@
 - [License](#license)
 
 ## Decription
-f
+Allow the user to look up the weather of a city by using the weather api data. as well as a 5 day forecast
 
 ## Installation
-f
+n/a (website)
 
 ## Usage
-f
+View the weither for the city of choice
 
 ## Constibuting
-f
+Haleigh Rzonca 
 
 ## Testing
-f
+Go to the site and type in a city
 
 ## Questions
 Feel free to checkout my other work along with this project at my GitHub.
 If you have any questions, do not hesitate to reach out to me by email. 
-GibHub: f
-Email: f
+GibHub: https://github.com/Hrzonca/write-me-a-readme
+Email: test@gmail.com
 
 ## License
-[![License: Unlicense](https://img.shields.io/badge/license-Unlicense-lightgrey.svg)](http://unlicense.org/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blueviolet.svg)](https://opensource.org/licenses/MIT)
