@@ -3,7 +3,7 @@
 // TODO: Include packages needed for this application
 const fs = require('fs');
 const inquirer = require('inquirer');
-const generateMarkdown = require('./utils/generateMarkdown.js')
+let generateMarkdown = require('./utils/generateMarkdown.js')
 
 // TODO: Create an array of questions for user input
 inquirer
@@ -56,51 +56,13 @@ inquirer
         }
 
     ])
-    .then(({ license, projectName, description, installation, usage, contribution, testing, gitHub, email }) => {
-        console.log(license);
-        const readMePage = formatReadMe(license, projectName, description, installation, usage, contribution, testing, gitHub, email);
-        console.log(readMePage);
-        const mark = generateMarkdown(license);
+    .then((answer) => {
+        const mark = generateMarkdown(answer);
         console.log(mark);
-        fs.writeFile('README.md', readMePage, (err) => err ? console.log(err) : console.log('Successfully created README'))
+    
+        fs.writeFile('README.md', mark, (err) => err ? console.log(err) : console.log('Successfully created README'))
 
     })
-
-const formatReadMe = ({ projectName, description, installation, usage, contribution, testing, gitHub, email }) => {
-
-    return `
-# ${projectName}
-
-## Table of Content
-- [project decription](#description)
-- [project instaltion](#installation)
-- [project usagae](#usage)
-- [project contribution](#contribution)
-- [project testing](#testing)
-- [project github](#github)
-
-## Decription
-${description}
-
-## Installation
-${installation}
-
-## Usage
-${usage}
-
-## Constibution
-${contribution}
-
-## Testing
-${testing}
-
-## Questions
-${gitHub}
-${email}
-`
-    formatReadMe();
-
-}
 
 // WHEN I choose a license for my application from a list of options
 // THEN a badge for that license is added near the top of the README and a notice is added to the section of the README entitled License that explains which license the application is covered under

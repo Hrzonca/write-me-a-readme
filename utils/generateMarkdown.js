@@ -4,9 +4,8 @@
 
 // console.log(answer);
 // If there is no license, return an empty string
-function renderLicenseBadge(license) {
-    let licenseType = license;
-   
+function renderLicenseBadge(data) {
+    let licenseType = data.license;
     let userLicense = '';
     if (licenseType === 'MIT') {
         userLicense = `[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)`
@@ -15,33 +14,64 @@ function renderLicenseBadge(license) {
     } else if (licenseType === 'apache') {
         userLicense = `[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)`
     } else if (licenseType === 'ISC') {
-        userLicense = `[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)`    
+        userLicense = `[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)`
     } else if (licenseType === 'unlicensed') {
         userLicense = `[![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)`
     } else if (licenseType = 'other') {
         userLicense = ``
     }
+    return userLicense;
 }
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
 function renderLicenseSection(data) {
-    renderLicenseBadge(data);
+    return renderLicenseBadge(data);
 
 }
 
-// TODO: Create a function to generate markdown for README
-function generateMarkdown(data) {
-  const formatReadMe = ({ data });
- 
-return `
-  ## License
-  ${renderLicenseBadge(data)}
-  ${renderLicenseSection(data)}
+const formatReadMe = ({ projectName, description, installation, usage, contribution, testing, gitHub, email }) => {
 
+    return `
+# ${projectName}
 
+## Table of Content
+- [project decription](#description)
+- [project instaltion](#installation)
+- [project usagae](#usage)
+- [project contribution](#contribution)
+- [project testing](#testing)
+- [project github](#github)
+
+## Decription
+${description}
+
+## Installation
+${installation}
+
+## Usage
+${usage}
+
+## Constibution
+${contribution}
+
+## Testing
+${testing}
+
+## Questions
+${gitHub}
+${email}
 `
-
 }
+    // TODO: Create a function to generate markdown for README
+    function generateMarkdown(data) {
+        var format = formatReadMe(data);
+        return `
+${format}
+  ## License
+  ${renderLicenseSection(data)}
+`
+    }
 
-module.exports = generateMarkdown;
+
+    module.exports = generateMarkdown;

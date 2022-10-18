@@ -1,5 +1,6 @@
 
-# g
+
+# d
 
 ## Table of Content
 - [project decription](#description)
@@ -10,20 +11,23 @@
 - [project github](#github)
 
 ## Decription
-g
+d
 
 ## Installation
-g
+d
 
 ## Usage
-g
+d
 
 ## Constibution
-g
+d
 
 ## Testing
-g
+d
 
 ## Questions
-g
+d
+d
 
+  ## License
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
