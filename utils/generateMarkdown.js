@@ -33,7 +33,7 @@ const formatReadMe = ({ projectName, description, installation, usage, contribut
 - [Decription](#description)
 - [Instaltion](#installation)
 - [Usage](#usage)
-- [Contributing](#contribution)
+- [Contributing](#Constibuting)
 - [Testing](#testing)
 - [Questions](#questions)
 - [License](#license)
