@@ -1,5 +1,5 @@
 
-    [![License: MIT](https://img.shields.io/badge/License-MIT-blueviolet.svg)](https://opensource.org/licenses/MIT)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blueviolet.svg)](https://opensource.org/licenses/MIT)
     
 # Write me a README
 
@@ -34,10 +34,9 @@ Trioligy tutors
 My instuctors: Samantha Randolph and Chandra Holt
 
 ## Questions
-[GitHub:](https://github.com/Hrzonca/write-me-a-readme)
+[GitHub](https://github.com/Hrzonca/write-me-a-readme)
 
-[Email:](hgielah@gmail.com)
+[Email](hgielah@gmail.com)
 
-
-    ## License
-    [![License: MIT](https://img.shields.io/badge/License-MIT-blueviolet.svg)](https://opensource.org/licenses/MIT)
+## License
+[![License: MIT](https://img.shields.io/badge/License-MIT-blueviolet.svg)](https://opensource.org/licenses/MIT)
