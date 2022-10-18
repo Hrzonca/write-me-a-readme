@@ -9,7 +9,7 @@
 - [Usagae](#usage)
 - [Contribution](#contribution)
 - [Testing](#testing)
-- [Question](#question)
+- [Question](#questions)
 
 ## Decription
 this appplication takes the weather api data and allows the user to view a city's weather data
